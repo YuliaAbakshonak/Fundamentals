@@ -1,8 +1,8 @@
 package EPAM.Java.Fundamentals;
 
-import java.util.Scanner;
+        import java.util.Scanner;
 
-public class Program {
+public class Task1 {
 
     public static void main(String[] args) {
 
