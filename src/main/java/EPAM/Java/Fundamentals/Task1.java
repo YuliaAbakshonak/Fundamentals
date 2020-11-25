@@ -1,6 +1,6 @@
 package EPAM.Java.Fundamentals;
 
-        import java.util.Scanner;
+import java.util.Scanner;
 
 public class Task1 {
 
@@ -9,7 +9,7 @@ public class Task1 {
         Scanner in = new Scanner(System.in);
         System.out.print("Input name: ");
         String name = in.nextLine();
-        System.out.printf ("Name: %s\n", name);
+        System.out.printf("Name: %s\n", name);
         in.close();
     }
 }

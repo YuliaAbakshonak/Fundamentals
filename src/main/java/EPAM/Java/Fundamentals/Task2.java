@@ -9,14 +9,14 @@ public class Task2 {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите последовательность: ");
         String numbers = in.nextLine();
-        System.out.println (numbers.length());
+        System.out.println(numbers.length());
 
         String result = "";
 
-        for (int i = numbers.length()-1; i >= 0 ; i--) {
+        for (int i = numbers.length() - 1; i >= 0; i--) {
             result += numbers.charAt(i);
         }
 
-        System.out.println ("Обратная последовательность: " + result);
+        System.out.println("Обратная последовательность: " + result);
     }
 }
