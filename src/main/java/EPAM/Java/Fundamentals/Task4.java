@@ -19,6 +19,7 @@ public class Task4 {
 
         }
         int n = sum(numbers);
+        System.out.println(n);
     }
 
     public static int sum(int... nums) {
@@ -28,7 +29,6 @@ public class Task4 {
         for (int i = 0; i < nums.length; i++) {
             result += nums[i];
         }
-        System.out.println(result);
         return result;
     }
 }
