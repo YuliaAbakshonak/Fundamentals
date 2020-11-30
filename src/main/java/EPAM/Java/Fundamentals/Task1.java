@@ -6,10 +6,10 @@ public class Task1 {
 
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Input name: ");
-        String name = in.nextLine();
+        String name = scanner.nextLine();
         System.out.printf("Name: %s\n", name);
-        in.close();
+        scanner.close();
     }
 }

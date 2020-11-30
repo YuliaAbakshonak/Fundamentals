@@ -6,16 +6,16 @@ public class Task4 {
 
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Введите количество чисел: ");
-        int numberAmount = in.nextInt();
+        int numberAmount = scanner.nextInt();
         System.out.println("Введите последовательность чисел через enter: ");
 
         int[] numbers = new int[numberAmount];
 
         for (int index = 0; index < numberAmount; index++) {
             System.out.print("Введите число " + String.valueOf(index + 1) + ": ");
-            numbers[index] = in.nextInt();
+            numbers[index] = scanner.nextInt();
 
         }
         int n = sum(numbers);

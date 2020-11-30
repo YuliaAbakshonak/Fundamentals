@@ -6,9 +6,9 @@ public class Task5 {
 
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число от 1 до 12: ");
-        int numberMonth = in.nextInt();
+        int numberMonth = scanner.nextInt();
 
         switch (numberMonth) {
 
